@@ -1,0 +1,35 @@
+{
+  "name": "gulpWebp",
+  "version": "1.0.0",
+  "description": "Convert all jpg &amp; png images to WebP format",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gulp cleanDist",
+    "gulp": "gulp exportWebP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeasin01/gulpWebP.git"
+  },
+  "keywords": [
+    "webp",
+    "jpg",
+    "png",
+    "jpg to webp",
+    "png to webp",
+    "convert"
+  ],
+  "author": "yeasin01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeasin01/gulpWebP/issues"
+  },
+  "homepage": "https://github.com/Yeasin01/gulpWebP#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "imagemin-webp": "^6.0.0"
+  }
+}
