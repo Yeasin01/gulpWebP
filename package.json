@@ -4,8 +4,8 @@
   "description": "Convert all jpg &amp; png images to WebP format",
   "main": "index.js",
   "scripts": {
-    "clean": "gulp cleanDist",
-    "gulp": "gulp exportWebP"
+    "prewebp": "gulp cleanDist",
+    "webp": "gulp exportWebP"
   },
   "repository": {
     "type": "git",
