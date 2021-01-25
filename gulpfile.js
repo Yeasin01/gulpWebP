@@ -12,7 +12,7 @@ gulp.task("cleanDist", function(done) {
 });
 
 gulp.task("exportWebP", function(done) {
-    let src = ["src/**/*.png", "src/**/*.jpg"];
+    let src = ["src/**/*.png", "src/**/*.jpg", "src/**/*.jpeg"];
     let dest = "./dist/";
     gulp.src(src)
         .pipe(imagemin([
